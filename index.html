@@ -19,49 +19,49 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<title>Lanche das Estrelas</title>
+<title>Mercearia Stars</title>
 </head>
 <body>
 <!-- Header-->
 <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
 <div class="w-full h-full flex flex-col justify-center items-center">
     <img
-        src="./assets/hamb-1.png" 
-        alt="Logo Burguer"
+        src="./assets/logo.png" 
+        alt="Logo Star"
         class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
     />
-    <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Lanche das Estrelas</h1>
-    <span class="text-white font-medium mb-4 text-center" >R.Ranulfo Machado Botelho nº 452, Santa Maria Madalena - RJ</span>
+    <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Mercearia Stars</h1>
+    <span class="text-white font-medium mb-4 text-center" >Camarote 305 das 19h às 22h e na Lavanderia das 7h às 18:50 </span>
     <div>
-        <span class="text-white px-4 py-1 rounded-lg bg-green-600" id="date-span" >Seg a Dom - 18:00 as 22:00</span>
+        <span class="text-white px-4 py-1 rounded-lg bg-green-600" id="date-span" >Seg a Dom - Por 14 dias.</span>
     </div>
 </div>
 </header>
 <!-- Fim do Header-->
 
-<h2 class="text-2xl md:text-3xl font-bold mt-9 mb-6 text-center">Conheça nosso menu</h2>
+<h2 class="text-2xl md:text-3xl font-bold mt-9 mb-6 text-center">Conheça nossos Produtos</h2>
 
 <!-- INICIO MENU -->
 <div id="menu">
     <!--INICIO DO MAIN-->
-    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-3 mb-16">
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-4 mb-16">
         
         <!-- PRODUTO ITEM 1 -->
         <div class="flex gap-2">
             <img 
-            src="./assets/hamb-1.png" 
-            alt="Hamburguer Smash"
+            src="./assets/barra-garoto.jpg" 
+            alt="Barras Diversas"
             class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
 
             <div class="mt-2">
-                <p class="font-bold">Hamburguer Smash</p>
-                <p class="text-sm">Pão levinho de fermentação natural, burger 160g, queijo prato, alface, tomate, cebola e maionese.</p>
+                <p class="font-bold">Barras de Chocolate sabores Diversas</p>
+                <p class="text-sm">Ao Leite, Cajú, Negresco, Cajú com passas, Meio Amargo, Crocante, Branco.</p>
                 <div class="flex justify-between items-center  mt-3">
-                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <p class="font-bold text-lg">R$ 10,00</p>
                     <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer Smash"
-                        data-price="18.90">
+                        data-name="Barras de chocolate"
+                        data-price="10.00">
                         <i class= "fa fa-cart-plus text-lg text-white"></i>
                     </button>
                 </div>
@@ -72,20 +72,20 @@
         <!-- PRODUTO ITEM 2 -->
         <div class="flex gap-2">
             <img 
-            src="./assets/hamb-2.png" 
-            alt="Hamburguer Duplo"
+            src="./assets/barra-bis.jpg" 
+            alt="Bis em Barra"
             class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
 
             <div class="mt-2">
-                <p class="font-bold">Hamburguer Duplo</p>
-                <p class="text-sm">Pão levinho de fermentação natural da Trigou, burger 320g, queijo cheddar, bacon e maionese da casa</p>
+                <p class="font-bold">Chocolate Bis em Barra</p>
+                <p class="text-sm">Extra Original, Extra Black, Extra Oreon</p>
                     
                 <div class="flex justify-between items-center  mt-3">
-                    <p class="font-bold text-lg">R$ 32.90</p>
+                    <p class="font-bold text-lg">R$ 5.00</p>
                     <button    
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer Duplo"
-                        data-price="32.90">
+                        data-name="Chocolate Bis em barra"
+                        data-price="5.90">
                         <i class= "fa fa-cart-plus text-lg text-white"></i>
                     </button>
                 </div>
@@ -93,111 +93,16 @@
         </div>
         <!-- FIM PRODUTO ITEM 2 -->
 
-        <!-- PRODUTO ITEM 3 -->
-        <div class="flex gap-2">
-            <img 
-            src="./assets/hamb-3.png" 
-            alt="Hamburguer Salad"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-
-            <div class="mt-2">
-                <p class="font-bold">Hamburguer Salad</p>
-                <p class="text-sm">Pão levinho de fermentação natural da Trigou, burger 310g, queijo prato, e maionese especial</p>
-            
-                <div class="flex justify-between items-center  mt-3">
-                    <p class="font-bold text-lg">R$ 35.90</p>
-                    <button 
-                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer Salad"
-                        data-price="35.90">
-                        <i class= "fa fa-cart-plus text-lg text-white"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- FIM PRODUTO ITEM 3 -->
-
-        <!-- PRODUTO ITEM 4 -->
-        <div class="flex gap-2">
-            <img 
-            src="./assets/hamb-4.png" 
-            alt="Hamburguer da Casa"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-
-            <div class="mt-2">
-                <p class="font-bold">Hamburguer da Casa</p>
-                <p class="text-sm">Pão levinho de fermentação natural, burger 160g,frango 75g, alface,cebola,picles,tomate,queijo
-             e maionese</p>
-            
-                <div class="flex justify-between items-center  mt-3">
-                    <p class="font-bold text-lg">R$ 30,00</p>
-                    <button 
-                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer da Casa"
-                        data-price="30">
-                        <i class= "fa fa-cart-plus text-lg text-white"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- FIM PRODUTO ITEM 4 -->
     </main>
     <!--FIM DO MAIN-->
 
-    <div class="mx-auto max-w-7xl px-2 my-2 ">
-        <h2 class="font-bold text-3xl">Bebidas</h2>
-    </div>
-
-    <!-- INICIO GRID BEBIDAS-->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-3 mb-16" id="menu">
-        <!-- BEBIDA ITEM 1 -->
-        <div class="flex gap-2 w-full">
-            <img 
-            src="./assets/refri-1.png" 
-            alt="Coca Lata"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-
-            <div class="w-full">
-                <p class="font-bold">Coca Lata</p>
-                <div class="flex justify-between items-center  mt-3">
-                    <p class="font-bold text-lg">R$ 6</p>
-                    <button 
-                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Coca Lata"
-                        data-price="6">
-                        <i class= "fa fa-cart-plus text-lg text-white"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- FIM BEBIDA ITEM 1 -->
-
-        <!-- BEBIDA ITEM 2 -->
-        <div class="flex gap-2 w-full">
-            <img 
-            src="./assets/refri-2.png" 
-            alt="Guaraná Lata"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-
-            <div class="w-full">
-                <p class="font-bold">Guaraná Lata</p>
-                <div class="flex justify-between items-center  mt-3">
-                    <p class="font-bold text-lg">R$ 6</p>
-                    <button 
-                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Guaraná Lata"
-                        data-price="6">
-                        <i class= "fa fa-cart-plus text-lg text-white"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- FIM BEBIDA ITEM 2 -->
-    </div>    
-    <!-- FIM GRID BEBIDAS-->
-    
 </div>
 <!-- FIM MENU -->
+
+
+<div >
+   <p>Em Breve mais Produtos...</p> 
+</div>
 
 <!-- MODAL CART -->
     <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden"
