@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--Meta tag de OG-->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Lanche das Estrelas o melhor hamburguer da região"/>
+<meta property="og:title" content="Venda de chocolates offshore"/>
 <meta property="og:image" content="https://cardapiodev.vercel.app/assets/hamb-1.png"/>
-<meta property="og:description" content="O melhor hamburguer caseiro da região!"/>
-<meta property="og:site_name" content="Lanche das Estrelas"/>
+<meta property="og:description" content="Melhores sabores e Diversidade."/>
+<meta property="og:site_name" content="Mercearia Star"/>
 
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
@@ -23,17 +23,13 @@
 </head>
 <body>
 <!-- Header-->
-<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
-<div class="w-full h-full flex flex-col justify-center items-center">
-    <img
-        src="./assets/logo.png" 
-        alt="Logo Star"
-        class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
-    />
-    <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Mercearia Stars</h1>
+<header class="w-full h-[420px] bg-black bg-home bg-cover bg-center">
+<div class="w-full h-full flex flex-col justify-center items-center text-center">
+    
+    <h1 class="text-5xl mt-4 mb-2 font-bold text-white">Mercearia <span class="text-yellow-300">Stars</span></h1>
     <span class="text-white font-medium mb-4 text-center" >Camarote 305 das 19h às 22h e na Lavanderia das 7h às 18:50 </span>
     <div>
-        <span class="text-white px-4 py-1 rounded-lg bg-green-600" id="date-span" >Seg a Dom - Por 14 dias.</span>
+        <span class="text-black font-bold px-4 py-1 rounded-lg bg-yellow-400" id="date-span" >Seg a Dom - Por 14 dias.</span>
     </div>
 </div>
 </header>
@@ -99,10 +95,10 @@
 </div>
 <!-- FIM MENU -->
 
-
-<div >
-   <p>Em Breve mais Produtos...</p> 
+<div>
+    <h2 class="text-2xl md:text-3xl font-bold mt-9 mb-6 text-center">Em breve mais produtos...</h2>
 </div>
+
 
 <!-- MODAL CART -->
     <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden"
@@ -122,7 +118,7 @@
                 id="address"
                 class="w-full border-2 p-1 rounded m-1"
             >
-            <p class="text-red-500 hidden"
+            <p class="text-Yellow-300 hidden"
                id="address-warn">Digite seu endereço completo
             </p>
             
@@ -136,14 +132,15 @@
 <!-- FIM MODAL CART -->
 
 <!-- INICIO BUTTON CART FOOTER -->]
-    <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+    <footer class="w-full bg-yellow-400 py-3 fixed bottom-0 z-40 flex items-center justify-center">
         <button 
-            class="flex items-center gap-2 text-white font-bold"
+            class="flex items-center gap-2 text-black font-bold"
             id="cart-btn">( <span id="cart-count">0</span> )
             veja meu carrinho
-            <i class="fa fa-cart-plus text-lg text-white "></i>
+            <i class="fa fa-cart-plus text-lg text-black "></i>
         </button>
     </footer>
+
     
 <!-- FIM BUTTON CART FOOTER -->
 

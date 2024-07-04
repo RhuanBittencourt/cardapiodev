@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        "home": "url('/assets/navio3.png')"
+        "home": "url('/assets/fundo-pontinhos.png')"
       }
      
     },
