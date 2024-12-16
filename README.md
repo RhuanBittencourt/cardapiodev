@@ -28,3 +28,7 @@ Projeto Mercearia, onde está sendo abordada uma experiência completa de cardá
     - Manipulação do DOM
     - Introdução ao Firebase
     - Integração com o Firebase
+
+
+  [Acessar Projeto Online](https://rhuanbittencourt.github.io/cardapiodev/)👆
+      
