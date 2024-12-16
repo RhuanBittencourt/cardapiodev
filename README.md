@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="assets/logo.mercearia.png" alt="">
+    <img width="900" src="assets/logo.mercearia.png" alt="">
 </p>
 
 -------
